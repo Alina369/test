@@ -42,11 +42,13 @@ double limit()
     }
 }
 
+// Return squad x
 double sqr(double x)
 {
     return x*x;
 }
 
+//Evalue roots
 bool realRoot(int a, int b, int c, double& x1, double& x2)
 {
     double D = sqr(double(b))-4.*a*c;
@@ -61,6 +63,7 @@ bool realRoot(int a, int b, int c, double& x1, double& x2)
 
 }
 
+//find coef for limit Ck+1/Ck
 bool indentify(double x, int& a, int& b, int& c )
 {
     int I = 10;
