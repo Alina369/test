@@ -27,7 +27,7 @@ int fiba2a(int k)
     return ck;
 }
 
-double limit()
+double lkj()
 {
     const double e = 1e-8;
     double r = 0;
